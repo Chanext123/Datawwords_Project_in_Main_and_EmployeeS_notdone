@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chan</title>
+    <link rel="stylesheet" href="chan.css">
+    <!-- <script src="chan.js"></script> -->
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar__left">
+            <a href=""><img src="./images/logo-final.png" alt=""></a>
+
+            <div class="searchbox">
+                <img src="./image/search.png" alt="">
+                <input type="text" placeholder="search">
+            </div>
+        </div>
+
+
+        <div class="navbar__center">
+            <ul>
+                <li>
+                    <a href="">Home</a>
+                </li>
+                <li>
+                    <a href="">Employee</a>
+                </li>
+                <li>
+                    <a href="">Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ===== navbar close ===== -->
+
+    <div class="container">
+
+        <!-- ===== left sidebar ===== -->
+        <div class="container__left-sidebar">
+            <div class="profile--box">
+                <img src="image/cover-pic.png" alt="" width="100%">
+                <div class="profile--info">
+                    <img src="image/user-1.png" alt="">
+                    <h1>Lorem impsum</h1>
+                    <h3>Lorem, ipsum dolor.</h3>
+                    <ul>
+                        <li>Your profile views <span>52</span></li>
+                    </ul>
+                    <ul>
+                        <li>Your post views <span>8</span></li>
+                    </ul>
+                    <ul>
+                        <li>Your connections <span>12</span></li>
+                    </ul>
+                </div>
+
+                <div class="profile--link">
+                    <a href=""><img src="image/items.png" alt="">My items</a>
+                    <a href=""><img src="image/premium.png" alt="">Try premium</a>
+
+                </div>
+            </div>
+
+            <div class="left-sidebar__activity" id="sidebarActivity">
+                <h3>RECENT</h3>
+                <a href=""><img src="image/recent.png" alt="">Web Development</a>
+                <a href=""><img src="image/recent.png" alt="">Uesr Interfsce</a>
+                <a href=""><img src="image/recent.png" alt="">Online Learning</a>
+                <a href=""><img src="image/recent.png" alt="">Learn Online</a>
+                <a href=""><img src="image/recent.png" alt="">Code Better</a>
+                <a href=""><img src="image/recent.png" alt="">Group Learning</a>
+                <h3>GROUPS</h3>
+                <a href=""><img src="image/group.png" alt="">Web Design </a>
+                <a href=""><img src="image/group.png" alt="">Web Design </a>
+                <a href=""><img src="image/group.png" alt="">Web Design </a>
+                <a href=""><img src="image/group.png" alt="">Web Design </a>
+                <h3>HASHTAG</h3>
+                <a href=""><img src="image/hashtag.png" alt="">Web Design </a>
+                <a href=""><img src="image/hashtag.png" alt="">Web Design </a>
+                <a href=""><img src="image/hashtag.png" alt="">Web Design </a>
+
+                <div class="discover--more">
+                    <a href="">Discover more</a>
+                </div>
+
+            </div>
+
+            <!-- <p id="showMore" onclick="toggleActivity()">Show more <b>+</b></p> -->
+        </div>
+
+        <!-- ===== main content ===== -->
+        <div class="container__main-content">
+
+            <div class="create-post">
+                <div class="post-input">
+                    <img src="image/user-1.png" alt="">
+                    <textarea name="textarea" id="textarea" rows="2" placeholder="Write a post"></textarea>
+                </div>
+
+                <div class="post-link">
+                    <li><img src="image/photo.png" alt="">Photo</li>
+                    <li><img src="image/video.png" alt="">Video</li>
+                    <li><img src="image/event.png" alt="">Event</li>
+                    <li>Post</li>
+                </div>
+            </div>
+
+            <div class="sort-by">
+                <hr>
+                <p>Sort by: <span>top <img src="image/down-arrow.png" alt=""></span></p>
+            </div>
+            <!-- ----- Post 1 ----- -->
+            <div class="post">
+                <div class="post-author">
+                    <img src="image/user-3.png" alt="">
+                    <div>
+                        <h1>Christian Misa</h1>
+                        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, sint.</small>
+                        <small>2 hour ago</small>
+                    </div>
+                </div>
+
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque incidunt assumenda autem numquam
+                    ullam
+                    sunt cum voluptatibus velit nostrum nisi!</p>
+                <img src="image/post-image-1.png" alt="" width="100%">
+
+                <div class="post-stats">
+                    <div>
+                        <img src="image/thumbsup.png" alt="">
+                        <img src="image/love.png" alt="">
+                        <img src="image/clap.png" alt="">
+                        <span class="liked">Christian Misa and 69 others</span>
+                    </div>
+
+                    <div>
+                        <span>22 comments &middot; 40 shares</span>
+                    </div>
+                </div>
+
+                <div class="post-activity">
+                    <div>
+                        <img src="image/user-1.png" alt="" class="post-activity-user-icon">
+                        <img src="image/down-arrow.png" alt="" class="post-activity-arrow-icon">
+
+                    </div>
+
+                    <div class="post-activity-link">
+                        <img src="image/like.png" alt="">
+                        <span>Like</span>
+                    </div>
+
+
+                    <div class="post-activity-link">
+                        <img src="image/comment.png" alt="">
+                        <span>Comment</span>
+                    </div>
+
+                    <div class="post-activity-link">
+                        <img src="image/share.png" alt="">
+                        <span>Share</span>
+                    </div>
+
+                    <div class="post-activity-link">
+                        <img src="image/send.png" alt="">
+                        <span>Send</span>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <!-- ----- Post 2 ----- -->
+            <div class="post">
+                <div class="post-author">
+                    <img src="image/user-4.png" alt="">
+                    <div>
+                        <h1>Christian Misa</h1>
+                        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, sint.</small>
+                        <small>2 hour ago</small>
+                    </div>
+                </div>
+
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque incidunt assumenda autem numquam
+                    ullam
+                    sunt cum voluptatibus velit nostrum nisi!</p>
+                <img src="image/post-image-2.png" alt="" width="100%">
+
+                <div class="post-stats">
+                    <div>
+                        <img src="image/thumbsup.png" alt="">
+                        <img src="image/love.png" alt="">
+                        <img src="image/clap.png" alt="">
+                        <span class="liked">Christian Misa and 69 others</span>
+                    </div>
+
+                    <div>
+                        <span>22 comments &middot; 40 shares</span>
+                    </div>
+                </div>
+
+                <div class="post-activity">
+                    <div>
+                        <img src="image/user-1.png" alt="" class="post-activity-user-icon">
+                        <img src="image/down-arrow.png" alt="" class="post-activity-arrow-icon">
+
+                    </div>
+
+                    <div class="post-activity-link">
+                        <img src="image/like.png" alt="">
+                        <span>Like</span>
+                    </div>
+
+
+                    <div class="post-activity-link">
+                        <img src="image/comment.png" alt="">
+                        <span>Comment</span>
+                    </div>
+
+                    <div class="post-activity-link">
+                        <img src="image/share.png" alt="">
+                        <span>Share</span>
+                    </div>
+
+                    <div class="post-activity-link">
+                        <img src="image/send.png" alt="">
+                        <span>Send</span>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <!-- ----- Post 3 ----- -->
+            <div class="post">
+                <div class="post-author">
+                    <img src="image/user-4.png" alt="">
+                    <div>
+                        <h1>Christian Misa</h1>
+                        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, sint.</small>
+                        <small>2 hour ago</small>
+                    </div>
+                </div>
+
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque incidunt assumenda autem numquam
+                    ullam
+                    sunt cum voluptatibus velit nostrum nisi!</p>
+                <img src="image/post-image-3.png" alt="" width="100%">
+
+                <div class="post-stats">
+                    <div>
+                        <img src="image/thumbsup.png" alt="">
+                        <img src="image/love.png" alt="">
+                        <img src="image/clap.png" alt="">
+                        <span class="liked">Christian Misa and 69 others</span>
+                    </div>
+
+                    <div>
+                        <span>22 comments &middot; 40 shares</span>
+                    </div>
+                </div>
+
+                <div class="post-activity">
+                    <div>
+                        <img src="image/user-1.png" alt="" class="post-activity-user-icon">
+                        <img src="image/down-arrow.png" alt="" class="post-activity-arrow-icon">
+
+                    </div>
+
+                    <div class="post-activity-link">
+                        <img src="image/like.png" alt="">
+                        <span>Like</span>
+                    </div>
+
+
+                    <div class="post-activity-link">
+                        <img src="image/comment.png" alt="">
+                        <span>Comment</span>
+                    </div>
+
+                    <div class="post-activity-link">
+                        <img src="image/share.png" alt="">
+                        <span>Share</span>
+                    </div>
+
+                    <div class="post-activity-link">
+                        <img src="image/send.png" alt="">
+                        <span>Send</span>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <!-- ----- Post 4 ----- -->
+            <div class="post">
+                <div class="post-author">
+                    <img src="image/user-4.png" alt="">
+                    <div>
+                        <h1>Christian Misa</h1>
+                        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, sint.</small>
+                        <small>2 hour ago</small>
+                    </div>
+                </div>
+
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque incidunt assumenda autem numquam
+                    ullam
+                    sunt cum voluptatibus velit nostrum nisi!</p>
+                <img src="image/post-image-4.png" alt="" width="100%">
+
+                <div class="post-stats">
+                    <div>
+                        <img src="image/thumbsup.png" alt="">
+                        <img src="image/love.png" alt="">
+                        <img src="image/clap.png" alt="">
+                        <span class="liked">Christian Misa and 69 others</span>
+                    </div>
+
+                    <div>
+                        <span>22 comments &middot; 40 shares</span>
+                    </div>
+                </div>
+
+                <div class="post-activity">
+                    <div>
+                        <img src="image/user-1.png" alt="" class="post-activity-user-icon">
+                        <img src="image/down-arrow.png" alt="" class="post-activity-arrow-icon">
+
+                    </div>
+
+                    <div class="post-activity-link">
+                        <img src="image/like.png" alt="">
+                        <span>Like</span>
+                    </div>
+
+
+                    <div class="post-activity-link">
+                        <img src="image/comment.png" alt="">
+                        <span>Comment</span>
+                    </div>
+
+                    <div class="post-activity-link">
+                        <img src="image/share.png" alt="">
+                        <span>Share</span>
+                    </div>
+
+                    <div class="post-activity-link">
+                        <img src="image/send.png" alt="">
+                        <span>Send</span>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== right sidebar ===== -->
+        <div class="container__right-sidebar">
+
+            <div class="right-sidebar--news">
+                <img src="image/more.png" alt="" class="info-icon">
+                <h3>Trending News</h3>
+                <a href="">Lorem ipsum dolor sit amet.</a>
+                <span> 1d ago &middot; 10,934 readers</span>
+
+                <a href="">Lorem ipsum dolor sit amet.</a>
+                <span> 1d ago &middot; 10,934 readers</span>
+
+                <a href="">Lorem ipsum dolor sit amet.</a>
+                <span> 1d ago &middot; 10,934 readers</span>
+
+                <a href="">Lorem ipsum dolor sit amet.</a>
+                <span> 1d ago &middot; 10,934 readers</span>
+
+                <a href="">Lorem ipsum dolor sit amet.</a>
+                <span> 1d ago &middot; 10,934 readers</span>
+
+                <a href="" class=" read-more-link">Read more</a>
+
+            </div>
+
+            <div class="sidebar-ad">
+                <small>Ad &middot; &middot; &middot;</small>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                <div>
+                    <img src="image/user-1.png">
+                    <img src="image/mi-logo.png">
+                </div>
+                <b>Lorem ipsum dolor sit.</b>
+                <a href="" class="ad-link">Learn more</a>
+            </div>
+
+            <div class="useful-links">
+                <a href="">Lorem</a>
+                <a href="">Lorem</a>
+                <a href="">Lorem</a>
+                <a href="">Lorem</a>
+                <a href="">Lorem</a>
+                <a href="">Lorem</a>
+                <a href="">More</a>
+
+                <div class="copyright">
+                    <img src="image/logo.png" alt="">
+                    <p>Linkedup &#169: 2023. All right reserved</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <script>
+        let sideActivity = document.getElementById("sidebarActivity");
+        let moreLink = document.getElementById("showMore");
+
+
+        function toggleActivity() {
+            sideActivity.classList.toggle("open");
+        }
+    </script> -->
+</body>
+
+</html>
